@@ -43,7 +43,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARES = [
     ...
-    'django_injector.inject_request_middleware',
+    'django_injector.apps.inject_request_middleware',
 ]
 ```
 
